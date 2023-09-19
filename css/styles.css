@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height:100vh;
+   width: 100%;
+   background-color: rgb(22, 22, 152);
+   
+}
+.container{
+   display: flex;
+   flex-direction: column;
+   width: 450px;
+   height: 450px;
+   align-items: center;
+   border-radius: 15px;
+   padding: 3rem;
+   background-color: rgba(251, 251, 253, .92);
+}
+h3{
+    display: flex;
+    font-family: 'Orbitron', 'sans-serif';
+    margin-top: .4rem;
+    font-size: 1.6rem;
+    color: rgb(36, 36, 166);
+    width: 100%;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+}
+.display{
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-family: Orbitron;
+    color: rgb(222, 141, 35);
+}
+.time {
+    display: flex;
+    margin-top: 2rem;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.time input{
+    padding: .3rem;
+    display: flex;
+    width: 15%;
+    align-items: center;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid rgb(222, 141, 35);
+}
+.tipos{
+    display: flex;
+    margin-top: 2rem;
+    color: rgb(236, 150, 39);
+    width: 100%;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-family: 'Orbitron';
+    margin-left: 2.3rem;
+}
+.comecar-btn{
+    margin-top: 3rem;
+    padding: 1.2rem;
+    width: 100%;
+    background-color: rgb(197, 91, 197);
+    background-color: rgb(6, 6, 59);
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Orbitron';
+    transition: .4s ease-in;
+}
+.comecar-btn:hover{
+    background-color: rgb(36, 36, 166);
+}
+
+
